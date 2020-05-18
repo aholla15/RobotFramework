@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 *** Test Cases ***
 User must sign in to checkout
     [Documentation]  This is basic info about the test case
-    [Tags]  Smoke
+    [Tags]  Smoking
     Open Browser  Http://www.amazon.com  gc
     Wait Until Page Contains    Discover Amazon
     Input Text  id=twotabsearchtextbox  ferrari 458
