@@ -2,8 +2,9 @@
 Library  SeleniumLibrary
 
 *** Keywords ***
-Being web test
+Begin web test
     Open Browser  ${URL}  ${BROWSER}
+
 
 Closing
     Close Browser
